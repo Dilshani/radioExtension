@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <title>Eranda Radio</title>
+      <link href="styles/fonts.css" rel="stylesheet">
+      <link href="styles/popup.css" rel="stylesheet">
+   </head>
+   <body>
+      <div id="content">
+         <div id="player">
+            <div class="image"><i class="icon icon-loader" data-i18n-title="loading"></i> <i class="icon icon-play-big" data-i18n-title="play"></i> <i class="icon icon-stop-big" data-i18n-title="stop"></i> <i class="icon icon-error" data-i18n-title="error"></i></div>
+            <div class="icons"><i class="icon icon-like" data-i18n-title="like"></i> <i class="icon icon-dislike" data-i18n-title="dislike"></i></div>
+            <h1 class="title" data-i18n="name"></h1>
+            <div class="description" data-i18n="description"></div>
+            <div class="volume"><i class="icon icon-mute" data-i18n-title="mute"></i> <i class="icon icon-unmute" data-i18n-title="unmute"></i><input type="range" min="0" max="100" step="1" value="0"></div>
+            <div class="equalizer"></div>
+         </div>
+         <div id="collapse" style="display:none">
+            <div id="search"><input type="search" data-i18n-placeholder="search" class="search"></div>
+            <div id="stations">
+               <div id="favorites"></div>
+            </div>
+         </div>
+         <div id="footer"><i class="icon" id="toggler">&#9660;</i> <i class="icon icon-options" data-i18n="settings"></i> <i class="icon icon-add" data-i18n="add"></i> <i class="icon icon-feedback" data-i18n="feedback"></i></div>
+      </div>
+      <script data-main="scripts/popup" src="scripts/lib/require.js"></script>
+   </body>
+</html>
