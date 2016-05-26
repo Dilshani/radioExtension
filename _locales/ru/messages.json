@@ -1,161 +1,161 @@
 {
-   "add": {
-      "message": "Добавить радиостанцию"
-   },
-   "added": {
-      "message": "Радиостанция добавлена"
-   },
-   "changelog": {
-      "message": "История изменений"
-   },
-   "changelog_2_0_7": {
-      "message": "\u003Cb>2.0.8\u003C/b>\u003Cbr> — Интеграция с http://101.ru и http://tunein.com"
-   },
-   "changelog_2_0_8": {
-      "message": "\u003Cb>2.0.8\u003C/b>\u003Cbr> — Интеграция с http://radiopotok.ru"
-   },
-   "changelog_2_0_9": {
-      "message": "\u003Cb>2.0.9\u003C/b>\u003Cbr> — Импорт и экспорт радиостанций\u003Cbr> — Добавлены новые радиостанции"
-   },
-   "changelog_2_1_1": {
-      "message": "\u003Cb>2.1.1\u003C/b>\u003Cbr> — Экспериментальная версия. Исправлены проблемы в Opera и Яндекс.Браузере"
-   },
-   "changelog_2_1_3": {
-      "message": "\u003Cb>2.1.3\u003C/b>\u003Cbr> — Добавлена возможность выбора качества потока и возможность поиска радиостанций"
-   },
-   "delete": {
-      "message": "Удалить станцию"
-   },
-   "description": {
-      "message": "Все ваши любимые радиостанции в одном дополнении."
-   },
-   "dislike": {
-      "message": "Удалить из избранного"
-   },
-   "edit": {
-      "message": "Редактировать радиостанцию"
-   },
-   "error": {
-      "message": "Ошибка"
-   },
-   "export": {
-      "message": "Экспорт"
-   },
-   "export_stations": {
-      "message": "Экспорт радиостанций"
-   },
-   "extension_updated": {
-      "message": "Дополнение обновлено"
-   },
-   "feedback": {
-      "message": "Обратная связь"
-   },
-   "flash_error": {
-      "message": "Для работы этого дополнения нужен установленный Adobe Flash Player"
-   },
-   "flash_install": {
-      "message": "Установить Adobe Flash Player"
-   },
-   "flash_message": {
-      "message": "Перейдите по ссылке ниже для установки плагина."
-   },
-   "hotkeys": {
-      "message": "Горячие клавиши"
-   },
-   "imageLink": {
-      "message": "Ссылка на изображение"
-   },
-   "import": {
-      "message": "Импорт"
-   },
-   "import_error": {
-      "message": "Ошибка импорта"
-   },
-   "import_stations": {
-      "message": "Импорт радиостанций"
-   },
-   "import_success": {
-      "message": "Импорт завершён успешно"
-   },
-   "like": {
-      "message": "Добавить в избранное"
-   },
-   "link": {
-      "message": "Перейти на сайт станции"
-   },
-   "loadfile": {
-      "message": "Загрузить из файла"
-   },
-   "loading": {
-      "message": "Буферизация"
-   },
-   "mute": {
-      "message": "Выключить звук"
-   },
-   "name": {
-      "message": "Радио Онлайн"
-   },
-   "next": {
-      "message": "Следующая радиостанция"
-   },
-   "optional": {
-      "message": "необязательно"
-   },
-   "play": {
-      "message": "Воспроизвести"
-   },
-   "playpause": {
-      "message": "Воспроизвести/Пауза"
-   },
-   "please_enable_radio": {
-      "message": "Включите радио для добавления"
-   },
-   "prev": {
-      "message": "Предыдущая радиостанция"
-   },
-   "reallyDelete": {
-      "message": "Вы действительно хотите удалить эту радиостанцию?"
-   },
-   "restore": {
-      "message": "Восстановить станцию"
-   },
-   "save": {
-      "message": "Сохранить"
-   },
-   "savefile": {
-      "message": "Сохранить в файл"
-   },
-   "search": {
-      "message": "Найти радиостанцию"
-   },
-   "settings": {
-      "message": "Настройки"
-   },
-   "siteLink": {
-      "message": "Ссылка на сайт"
-   },
-   "stationName": {
-      "message": "Название радиостанции"
-   },
-   "stations": {
-      "message": "Радиостанции"
-   },
-   "stop": {
-      "message": "Остановить"
-   },
-   "stopped": {
-      "message": "Остановлено"
-   },
-   "streamUrl": {
-      "message": "URL потока"
-   },
-   "unmute": {
-      "message": "Включить звук"
-   },
-   "volumedown": {
-      "message": "Громкость -"
-   },
-   "volumeup": {
-      "message": "Громкость +"
-   }
+  "add": {
+    "message": "Добавить радиостанцию"
+  },
+  "added": {
+    "message": "Радиостанция добавлена"
+  },
+  "changelog": {
+    "message": "История изменений"
+  },
+  "changelog_2_0_7": {
+    "message": "\u003Cb>2.0.8\u003C/b>\u003Cbr> — Интеграция с http://101.ru и http://tunein.com"
+  },
+  "changelog_2_0_8": {
+    "message": "\u003Cb>2.0.8\u003C/b>\u003Cbr> — Интеграция с http://radiopotok.ru"
+  },
+  "changelog_2_0_9": {
+    "message": "\u003Cb>2.0.9\u003C/b>\u003Cbr> — Импорт и экспорт радиостанций\u003Cbr> — Добавлены новые радиостанции"
+  },
+  "changelog_2_1_1": {
+    "message": "\u003Cb>2.1.1\u003C/b>\u003Cbr> — Экспериментальная версия. Исправлены проблемы в Opera и Яндекс.Браузере"
+  },
+  "changelog_2_1_3": {
+    "message": "\u003Cb>2.1.3\u003C/b>\u003Cbr> — Добавлена возможность выбора качества потока и возможность поиска радиостанций"
+  },
+  "delete": {
+    "message": "Удалить станцию"
+  },
+  "description": {
+    "message": "Все ваши любимые радиостанции в одном дополнении."
+  },
+  "dislike": {
+    "message": "Удалить из избранного"
+  },
+  "edit": {
+    "message": "Редактировать радиостанцию"
+  },
+  "error": {
+    "message": "Ошибка"
+  },
+  "export": {
+    "message": "Экспорт"
+  },
+  "export_stations": {
+    "message": "Экспорт радиостанций"
+  },
+  "extension_updated": {
+    "message": "Дополнение обновлено"
+  },
+  "feedback": {
+    "message": "Обратная связь"
+  },
+  "flash_error": {
+    "message": "Для работы этого дополнения нужен установленный Adobe Flash Player"
+  },
+  "flash_install": {
+    "message": "Установить Adobe Flash Player"
+  },
+  "flash_message": {
+    "message": "Перейдите по ссылке ниже для установки плагина."
+  },
+  "hotkeys": {
+    "message": "Горячие клавиши"
+  },
+  "imageLink": {
+    "message": "Ссылка на изображение"
+  },
+  "import": {
+    "message": "Импорт"
+  },
+  "import_error": {
+    "message": "Ошибка импорта"
+  },
+  "import_stations": {
+    "message": "Импорт радиостанций"
+  },
+  "import_success": {
+    "message": "Импорт завершён успешно"
+  },
+  "like": {
+    "message": "Добавить в избранное"
+  },
+  "link": {
+    "message": "Перейти на сайт станции"
+  },
+  "loadfile": {
+    "message": "Загрузить из файла"
+  },
+  "loading": {
+    "message": "Буферизация"
+  },
+  "mute": {
+    "message": "Выключить звук"
+  },
+  "name": {
+    "message": "Радио Онлайн"
+  },
+  "next": {
+    "message": "Следующая радиостанция"
+  },
+  "optional": {
+    "message": "необязательно"
+  },
+  "play": {
+    "message": "Воспроизвести"
+  },
+  "playpause": {
+    "message": "Воспроизвести/Пауза"
+  },
+  "please_enable_radio": {
+    "message": "Включите радио для добавления"
+  },
+  "prev": {
+    "message": "Предыдущая радиостанция"
+  },
+  "reallyDelete": {
+    "message": "Вы действительно хотите удалить эту радиостанцию?"
+  },
+  "restore": {
+    "message": "Восстановить станцию"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "savefile": {
+    "message": "Сохранить в файл"
+  },
+  "search": {
+    "message": "Найти радиостанцию"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "siteLink": {
+    "message": "Ссылка на сайт"
+  },
+  "stationName": {
+    "message": "Название радиостанции"
+  },
+  "stations": {
+    "message": "Радиостанции"
+  },
+  "stop": {
+    "message": "Остановить"
+  },
+  "stopped": {
+    "message": "Остановлено"
+  },
+  "streamUrl": {
+    "message": "URL потока"
+  },
+  "unmute": {
+    "message": "Включить звук"
+  },
+  "volumedown": {
+    "message": "Громкость -"
+  },
+  "volumeup": {
+    "message": "Громкость +"
+  }
 }
