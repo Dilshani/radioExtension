@@ -75,6 +75,6 @@
    "options_page": "options.html",
    "permissions": [ "webRequest", "contextMenus", "tabs", "http://*/*", "https://*/*" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "2.1.9",
+   "version": "0.2.0",
    "web_accessible_resources": [ "images/38.png" ]
 }
