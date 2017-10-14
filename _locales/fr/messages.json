@@ -1,0 +1,170 @@
+{
+   "add": {
+      "message": "Ajouter une station"
+   },
+   "added": {
+      "message": "Station ajoutée"
+   },
+   "changelog": {
+      "message": "Changements"
+   },
+   "changelog_2_0_7": {
+      "message": "\u003Cb>2.0.8\u003C/b>\u003Cbr> — Intégration avec http://101.ru et http://tunein.com"
+   },
+   "changelog_2_0_8": {
+      "message": "\u003Cb>2.0.8\u003C/b>\u003Cbr> — Intégration avec http://radiopotok.ru"
+   },
+   "changelog_2_0_9": {
+      "message": "\u003Cb>2.0.9\u003C/b>\u003Cbr> — Importer et exporter des stations\u003Cbr> — Ajout de nouvelles stations"
+   },
+   "changelog_2_1_1": {
+      "message": "\u003Cb>2.1.1\u003C/b>\u003Cbr> — Version expérimentale. Résolution de bug pour Opéra et Yandex"
+   },
+   "changelog_2_1_3": {
+      "message": "\u003Cb>2.1.3\u003C/b>\u003Cbr> — Ajout d'un sélectionneur de qualité et de la recherche de stations"
+   },
+   "core_stations": {
+      "message": "Stations présélectionnées"
+   },
+   "delete": {
+      "message": "Supprimer la station"
+   },
+   "description": {
+      "message": "Toutes vos stations de radio dans une extension."
+   },
+   "dislike": {
+      "message": "Retirer des favoris"
+   },
+   "edit": {
+      "message": "Éditer une station"
+   },
+   "error": {
+      "message": "Erreur"
+   },
+   "export": {
+      "message": "Exporter"
+   },
+   "export_stations": {
+      "message": "Exporter"
+   },
+   "extension_updated": {
+      "message": "Extension mise à jour"
+   },
+   "feedback": {
+      "message": "Avis"
+   },
+   "flash_error": {
+      "message": "Adobe Flash Player requis pour cette extension"
+   },
+   "flash_install": {
+      "message": "Installer Adobe Flash Player"
+   },
+   "flash_message": {
+      "message": "Cliquer sur le lien en dessous pour installer le plugin."
+   },
+   "hidden_stations": {
+      "message": "Stations cachées"
+   },
+   "hotkeys": {
+      "message": "Raccourcis"
+   },
+   "imageLink": {
+      "message": "Lien de l'image"
+   },
+   "import": {
+      "message": "Importer"
+   },
+   "import_error": {
+      "message": "Erreur lors de l'importation"
+   },
+   "import_stations": {
+      "message": "Importer"
+   },
+   "import_success": {
+      "message": "Importation réussie"
+   },
+   "like": {
+      "message": "Ajouter aux favoris"
+   },
+   "link": {
+      "message": "Ouvrir le site de la station"
+   },
+   "loadfile": {
+      "message": "Charger"
+   },
+   "loading": {
+      "message": "Chargement"
+   },
+   "mute": {
+      "message": "Couper le son"
+   },
+   "name": {
+      "message": "Radio en ligne"
+   },
+   "next": {
+      "message": "Station suivante"
+   },
+   "optional": {
+      "message": "optionnel"
+   },
+   "play": {
+      "message": "Jouer"
+   },
+   "playpause": {
+      "message": "Jouer/Arrêter"
+   },
+   "please_enable_radio": {
+      "message": "Allumer la radio pour ajouter une station"
+   },
+   "prev": {
+      "message": "Station précédente"
+   },
+   "reallyDelete": {
+      "message": "Êtes-vous sûr de vouloir supprimer cette station?"
+   },
+   "restore": {
+      "message": "Restaurer la station"
+   },
+   "save": {
+      "message": "Sauvegarder"
+   },
+   "savefile": {
+      "message": "Enregistrer"
+   },
+   "search": {
+      "message": "Rechercher"
+   },
+   "settings": {
+      "message": "Paramètres"
+   },
+   "siteLink": {
+      "message": "Lien du site"
+   },
+   "stationName": {
+      "message": "Nom de la station"
+   },
+   "stations": {
+      "message": "Stations"
+   },
+   "stop": {
+      "message": "Arrêter"
+   },
+   "stopped": {
+      "message": "Arrêté"
+   },
+   "streamUrl": {
+      "message": "Lien du flux"
+   },
+   "unmute": {
+      "message": "Remettre le son"
+   },
+   "user_stations": {
+      "message": "Stations personnalisées"
+   },
+   "volumedown": {
+      "message": "Baisser le volume"
+   },
+   "volumeup": {
+      "message": "Augmenter le volume"
+   }
+}

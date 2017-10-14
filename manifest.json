@@ -1,0 +1,80 @@
+{
+   "background": {
+      "scripts": [ "scripts/lib/require.js", "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/19.png",
+         "38": "images/38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "commands": {
+      "next": {
+         "description": "__MSG_next__",
+         "global": true,
+         "suggested_key": {
+            "default": "Ctrl+Shift+0",
+            "mac": "Command+Shift+0"
+         }
+      },
+      "playpause": {
+         "description": "__MSG_playpause__",
+         "global": true,
+         "suggested_key": {
+            "default": "Ctrl+Shift+8",
+            "mac": "Command+Shift+8"
+         }
+      },
+      "prev": {
+         "description": "__MSG_prev__",
+         "global": true,
+         "suggested_key": {
+            "default": "Ctrl+Shift+9",
+            "mac": "Command+Shift+9"
+         }
+      },
+      "volumedown": {
+         "description": "__MSG_volumedown__"
+      },
+      "volumeup": {
+         "description": "__MSG_volumeup__"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "scripts/ext/proxy.js" ],
+      "matches": [ "http://radio.css3.su/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "scripts/ext/101.ru.js" ],
+      "matches": [ "*://101.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "scripts/ext/tunein.com.js" ],
+      "matches": [ "*://tunein.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "scripts/ext/radiopotok.ru.js" ],
+      "matches": [ "*://radiopotok.ru/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/icon.png",
+      "16": "images/16.png",
+      "19": "images/19.png",
+      "38": "images/48.png",
+      "48": "images/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKr+eZqxn08dPdi7hxCYB13oHjwzYck0Sn0JG83R087jIX09a43t6DuQ5dBoSkAH5RwWDW6nZPidCap6GKpx9hhPx33gRPlzSGPaCpJIUfp1jw2HRyXrWaJ9CUy9vZFoYj4JPqPN45pSQk8X/r0Bn0Co+mTDBmbkCn/5SvMs9YbQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "options_page": "options.html",
+   "permissions": [ "webRequest", "contextMenus", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.9",
+   "web_accessible_resources": [ "images/38.png" ]
+}
