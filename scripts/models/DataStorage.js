@@ -1,16 +1,16 @@
 define(["models/Station"], function (a) {
     "use strict";
-    function b(a, b) {
+    function setLocalStorage(a, b) {
         localStorage.setItem(a.toString(), b.toString())
     }
 
     function c(a) {
-        e(a) || u.push(a), b("_favorites", JSON.stringify(u))
+        e(a) || u.push(a), setLocalStorage("_favorites", JSON.stringify(u))
     }
 
     function d(a) {
         var c = u.indexOf(a);
-        c >= 0 && u.splice(c, 1), b("_favorites", JSON.stringify(u))
+        c >= 0 && u.splice(c, 1), setLocalStorage("_favorites", JSON.stringify(u))
     }
 
     function e(a) {
@@ -22,7 +22,7 @@ define(["models/Station"], function (a) {
     }
 
     function g(a) {
-        u = a, b("_favorites", JSON.stringify(u))
+        u = a, setLocalStorage("_favorites", JSON.stringify(u))
     }
 
     function h() {
@@ -51,7 +51,7 @@ define(["models/Station"], function (a) {
     }
 
     function l(a) {
-        v = a, b("_last", v)
+        v = a, setLocalStorage("_last", v)
     }
 
     function m() {
@@ -72,19 +72,19 @@ define(["models/Station"], function (a) {
 
     function q(a) {
         var c = z.current;
-        z = {current: a, last: c}, b("_volume", JSON.stringify(z))
+        z = {current: a, last: c}, setLocalStorage("_volume", JSON.stringify(z))
     }
 
     function r(c) {
-        return c.name || (c.name = (+new Date).toString() + Object.keys(x).length.toString()), x[c.name] = new a(c.name, c.title, c.url || "", c.streams, c.image || "", !0), b("_stations", JSON.stringify(x)), x[c.name]
+        return c.name || (c.name = (+new Date).toString() + Object.keys(x).length.toString()), x[c.name] = new a(c.name, c.title, c.url || "", c.streams, c.image || "", !0), setLocalStorage("_stations", JSON.stringify(x)), x[c.name]
     }
 
     function s(a) {
-        x.hasOwnProperty(a) ? (delete x[a], b("_stations", JSON.stringify(x))) : w.hasOwnProperty(a) && (w[a].setHidden(!0), y[a] = 1, b("_hidden", JSON.stringify(y)))
+        x.hasOwnProperty(a) ? (delete x[a], setLocalStorage("_stations", JSON.stringify(x))) : w.hasOwnProperty(a) && (w[a].setHidden(!0), y[a] = 1, setLocalStorage("_hidden", JSON.stringify(y)))
     }
 
     function t(a) {
-        y.hasOwnProperty(a) && (w[a].setHidden(!1), delete y[a], b("_hidden", JSON.stringify(y)))
+        y.hasOwnProperty(a) && (w[a].setHidden(!1), delete y[a], setLocalStorage("_hidden", JSON.stringify(y)))
     }
 
     var u = (JSON.parse(localStorage.getItem("_favorites")) || []).map(function (a) {
@@ -98,7 +98,7 @@ define(["models/Station"], function (a) {
             var b = JSON.parse(A.responseText);
             for (var c in b)b.hasOwnProperty(c) && (w[c] = new a(c, b[c].title, b[c].url, b[c].streams, b[c].image, !1, y.hasOwnProperty(c)))
         }
-    }, A.open("GET", "http://mylightblog.appspot.com/stations.json", !0), A.send();
+    }, A.open("GET", "https://data-oasis-182813.appspot.com/lkstations.json", !0), A.send();
     var B = JSON.parse(localStorage.getItem("_stations")) || {};
     for (var C in B)B.hasOwnProperty(C) && (x[C] = new a(C, B[C].title, B[C].url, B[C].streams, B[C].image, !0));
     return {
